@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     # Local apps
     "accounts",
+    "bills",
 ]
 
 MIDDLEWARE = [
@@ -96,7 +97,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Tbilisi"
 
 USE_I18N = True
 
